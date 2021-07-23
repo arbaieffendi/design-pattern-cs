@@ -10,7 +10,7 @@ namespace DesignPatternConsole.Factory
     {
 
         //use getShape method to get object of type shape 
-        public IShape getShape(String shapeType)
+        public IShape GetShape(String shapeType)
         {
             if (shapeType == null)
             {

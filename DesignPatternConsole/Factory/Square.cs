@@ -8,7 +8,7 @@ namespace DesignPatternConsole.Factory
 {
     public class Square : IShape
     {
-       public void draw()
+       public void Draw()
         {
             Console.WriteLine("Inside Square::draw() method.");
         }

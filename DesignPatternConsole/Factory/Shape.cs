@@ -8,6 +8,6 @@ namespace DesignPatternConsole.Factory
 {
     public interface IShape
     {
-        void draw();
+        void Draw();
     }
 }

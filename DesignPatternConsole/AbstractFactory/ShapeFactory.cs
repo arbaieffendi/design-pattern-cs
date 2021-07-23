@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatternConsole.Factory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace DesignPatternConsole.AbstractFactory
 {
     public class ShapeFactory : AbstractFactory
     {
-       public override IShape getShape(String shapeType)
+       public override IShape GetShape(String shapeType)
         {
 
             if (shapeType == null)
@@ -34,7 +35,7 @@ namespace DesignPatternConsole.AbstractFactory
             return null;
         }
 
-        public override Color getColor(String color)
+        public override Color GetColor(String color)
         {
             return null;
         }

@@ -14,22 +14,22 @@ namespace DesignPatternConsole.Factory
             ShapeFactory shapeFactory = new ShapeFactory();
 
             //get an object of Circle and call its draw method.
-            IShape shape1 = shapeFactory.getShape("CIRCLE");
+            IShape shape1 = shapeFactory.GetShape("CIRCLE");
 
             //call draw method of Circle
-            shape1.draw();
+            shape1.Draw();
 
             //get an object of Rectangle and call its draw method.
-            IShape shape2 = shapeFactory.getShape("RECTANGLE");
+            IShape shape2 = shapeFactory.GetShape("RECTANGLE");
 
             //call draw method of Rectangle
-            shape2.draw();
+            shape2.Draw();
 
             //get an object of Square and call its draw method.
-            IShape shape3 = shapeFactory.getShape("SQUARE");
+            IShape shape3 = shapeFactory.GetShape("SQUARE");
 
             //call draw method of circle
-            shape3.draw();
+            shape3.Draw();
         }
 
     }

@@ -10,7 +10,7 @@ namespace DesignPatternConsole.AbstractFactory
 
     public abstract class AbstractFactory
     {
-        public abstract Color getColor(String color);
-        public abstract IShape getShape(String shape);
+        public abstract Color GetColor(String color);
+        public abstract IShape GetShape(String shape);
     }
 }

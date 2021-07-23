@@ -58,8 +58,8 @@ namespace DesignPatternConsole
         static void GetMenu() {
 
             Console.WriteLine("---- Design Pattern ----");
-            Console.WriteLine("1. Factory");
-            Console.WriteLine("2. Abstract Factory");
+            Console.WriteLine("1. Factory (Shape)");
+            Console.WriteLine("2. Abstract Factory (Shape)");
             Console.WriteLine("3. Strategy");
             Console.WriteLine("4. Builder");
             Console.WriteLine("5. Facade (Mortgage)");

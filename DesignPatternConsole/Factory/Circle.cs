@@ -8,7 +8,7 @@ namespace DesignPatternConsole.Factory
 {
     public class Circle : IShape
     {
-       public void draw()
+       public void Draw()
         {
             Console.WriteLine("Inside Circle::draw() method.");
         }

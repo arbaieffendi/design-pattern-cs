@@ -4,9 +4,9 @@ namespace DesignPatternConsole.Facade
 {
     internal class Bank
     {
-        internal bool HasSufficientSavings(Customer customer, int amount)
+        internal bool HasSufficientSavings(Customer customer, double amount)
         {
-            Console.WriteLine($"Check bank account for {customer}");
+            Console.WriteLine($"Check bank account for {customer.Name}");
             return true;
         }
     }

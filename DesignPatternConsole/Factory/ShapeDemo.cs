@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternConsole
+namespace DesignPatternConsole.Factory
 {
-    public class FactoryPatternDemo
+    class ShapeDemo : DemoBase
     {
 
-        public static void run()
+        public override void Run()
         {
             ShapeFactory shapeFactory = new ShapeFactory();
 
@@ -31,5 +31,6 @@ namespace DesignPatternConsole
             //call draw method of circle
             shape3.draw();
         }
+
     }
 }

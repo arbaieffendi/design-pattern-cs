@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternConsole
+namespace DesignPatternConsole.Factory
 {
     public class ShapeFactory
     {

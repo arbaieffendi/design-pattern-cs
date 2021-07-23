@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatternConsole.AbstractFactory
 {
-    public class Demo
+    public class ShapeDemo : DemoBase
     {
-        public static void run()
+        public override void Run()
         {
-
             //get shape factory
             AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
 

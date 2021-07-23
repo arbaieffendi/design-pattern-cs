@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\AbstractFactory.cs" />
-    <Compile Include="AbstractFactory\Demo.cs" />
+    <Compile Include="AbstractFactory\ShapeDemo.cs" />
     <Compile Include="AbstractFactory\Blue.cs" />
     <Compile Include="AbstractFactory\Color.cs" />
     <Compile Include="AbstractFactory\ColorFactory.cs" />
@@ -71,7 +71,7 @@
     <Compile Include="Facade\Mortgage.cs" />
     <Compile Include="Facade\MortgageDemo.cs" />
     <Compile Include="Factory\Circle.cs" />
-    <Compile Include="Factory\FactoryPatternDemo.cs" />
+    <Compile Include="Factory\ShapeDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Factory\Rectangle.cs" />

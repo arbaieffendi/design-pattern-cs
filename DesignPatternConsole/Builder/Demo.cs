@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatternConsole.Builder
 {
-    class Demo
+    class Demo : DemoBase
     {
-        public static void run()
+        public override void Run()
         {
             Person person1 = new Person("Arba`i", "Effendi", "27");
 

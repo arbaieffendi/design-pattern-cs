@@ -23,11 +23,11 @@ namespace DesignPatternConsole
             { 
 
                 case 1:
-                    FactoryPatternDemo.run();
+                    new Factory.ShapeDemo().Run();
                     break;
                 
                 case 2:
-                    AbstractFactory.Demo.run();
+                    new AbstractFactory.ShapeDemo().Run();
                     break;
 
                 case 3:
@@ -35,7 +35,7 @@ namespace DesignPatternConsole
                     break;
 
                 case 4:
-                    Builder.Demo.run();
+                    new Builder.Demo().Run();
                     break;
 
                 case 5:
@@ -62,6 +62,7 @@ namespace DesignPatternConsole
             Console.WriteLine("2. Abstract Factory");
             Console.WriteLine("3. Strategy");
             Console.WriteLine("4. Builder");
+            Console.WriteLine("5. Facade (Mortgage)");
             Console.WriteLine("0. Exit");
 
             Console.WriteLine("Enter pattern : ");

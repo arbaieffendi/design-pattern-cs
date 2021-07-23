@@ -15,7 +15,11 @@ namespace DesignPatternConsole.Facade
             // check eligibility of customer
 
             Customer customer = new Customer("Arba");
-            bool eligible = mortgage.IsEligible(customer, 125000);
+            double amount = 125000;
+
+            Console.WriteLine($"{customer.Name} applies for {amount} loan\n");
+
+            bool eligible = mortgage.IsEligible(customer, amount);
 
             string status = eligible ? "Approved" : "Rejected";
 

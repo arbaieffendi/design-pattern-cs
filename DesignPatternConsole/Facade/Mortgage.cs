@@ -12,11 +12,11 @@ namespace DesignPatternConsole.Facade
         Loan loan = new Loan();
         Credit credit = new Credit();
 
-        internal bool IsEligible(Customer customer, int amount)
+        internal bool IsEligible(Customer customer, double amount)
         {
             bool eligible = true;
             
-            //check customer saving, bad loan history, good credit
+            //check customer saving, bad loan history, and a credit
             if (!bank.HasSufficientSavings(customer, amount))
             {
                 eligible = false;

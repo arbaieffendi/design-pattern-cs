@@ -70,6 +70,9 @@
     <Compile Include="Facade\Loan.cs" />
     <Compile Include="Facade\Mortgage.cs" />
     <Compile Include="Facade\MortgageDemo.cs" />
+    <Compile Include="FactoryMethod\Document.cs" />
+    <Compile Include="FactoryMethod\DocumentDemo.cs" />
+    <Compile Include="FactoryMethod\Page.cs" />
     <Compile Include="Factory\Circle.cs" />
     <Compile Include="Factory\ShapeDemo.cs" />
     <Compile Include="Program.cs" />

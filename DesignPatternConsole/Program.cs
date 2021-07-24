@@ -23,7 +23,7 @@ namespace DesignPatternConsole
             { 
 
                 case 1:
-                    new Factory.ShapeDemo().Run();
+                    new FactoryMethod.DocumentDemo().Run();
                     break;
                 
                 case 2:
@@ -58,7 +58,7 @@ namespace DesignPatternConsole
         static void GetMenu() {
 
             Console.WriteLine("---- Design Pattern ----");
-            Console.WriteLine("1. Factory (Shape)");
+            Console.WriteLine("1. Factory Method (Pages)");
             Console.WriteLine("2. Abstract Factory (Shape)");
             Console.WriteLine("3. Strategy");
             Console.WriteLine("4. Builder");

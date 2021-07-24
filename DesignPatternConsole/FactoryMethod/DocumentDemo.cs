@@ -10,7 +10,8 @@ namespace DesignPatternConsole.FactoryMethod
     {
         public override void Run()
         {
-            string description = "In this example, Factory Method offering flexibility in creating different documents. The derived document classes Report and Resume instantiate extended versions of the Document class. Here, the Factory Method is called in the constructor of the Document base class";
+            string description = "The Factory Method defines an interface for creating an object, but let subclasses decide which class to instantiate. This pattern lets a class defer instantiation to subclasses";
+            description += "\n\nIn this example, Factory Method offering flexibility in creating different documents. The derived document classes Report and Resume instantiate extended versions of the Document class. Here, the Factory Method is called in the constructor of the Document base class";
             Console.WriteLine(description);
 
             Document[] documents = new Document[2];

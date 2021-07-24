@@ -46,15 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\AbstractFactory.cs" />
-    <Compile Include="AbstractFactory\ShapeDemo.cs" />
-    <Compile Include="AbstractFactory\Blue.cs" />
-    <Compile Include="AbstractFactory\Color.cs" />
-    <Compile Include="AbstractFactory\ColorFactory.cs" />
-    <Compile Include="AbstractFactory\FactoryProducer.cs" />
-    <Compile Include="AbstractFactory\Green.cs" />
-    <Compile Include="AbstractFactory\Red.cs" />
-    <Compile Include="AbstractFactory\ShapeFactory.cs" />
+    <Compile Include="AbstractFactory\AnimalWorld.cs" />
+    <Compile Include="AbstractFactory\Carnivore.cs" />
+    <Compile Include="AbstractFactory\AnimalFoodChainDemo.cs" />
+    <Compile Include="AbstractFactory\ContinentFactory.cs" />
+    <Compile Include="AbstractFactory\Herbivore.cs" />
     <Compile Include="Builder\Demo.cs" />
     <Compile Include="Builder\Person.cs" />
     <Compile Include="Builder\PersonBuilder.cs" />
@@ -73,14 +69,8 @@
     <Compile Include="FactoryMethod\Document.cs" />
     <Compile Include="FactoryMethod\DocumentDemo.cs" />
     <Compile Include="FactoryMethod\Page.cs" />
-    <Compile Include="Factory\Circle.cs" />
-    <Compile Include="Factory\ShapeDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Factory\Rectangle.cs" />
-    <Compile Include="Factory\Shape.cs" />
-    <Compile Include="Factory\ShapeFactory.cs" />
-    <Compile Include="Factory\Square.cs" />
     <Compile Include="Strategy\Duck.cs" />
   </ItemGroup>
   <ItemGroup>

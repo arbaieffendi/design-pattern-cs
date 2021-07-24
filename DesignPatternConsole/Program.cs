@@ -27,7 +27,7 @@ namespace DesignPatternConsole
                     break;
                 
                 case 2:
-                    new AbstractFactory.ShapeDemo().Run();
+                    new AbstractFactory.AnimalFoodChainDemo().Run();
                     break;
 
                 case 3:
@@ -58,11 +58,11 @@ namespace DesignPatternConsole
         static void GetMenu() {
 
             Console.WriteLine("---- Design Pattern ----");
-            Console.WriteLine("1. Factory Method (Pages)");
-            Console.WriteLine("2. Abstract Factory (Shape)");
+            Console.WriteLine("1. Factory Method (Document Pages)");
+            Console.WriteLine("2. Abstract Factory (Food Chain)");
             Console.WriteLine("3. Strategy");
             Console.WriteLine("4. Builder");
-            Console.WriteLine("5. Facade (Mortgage)");
+            Console.WriteLine("5. Facade (Mortgage System)");
             Console.WriteLine("0. Exit");
 
             Console.WriteLine("Enter pattern : ");

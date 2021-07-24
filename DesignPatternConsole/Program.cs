@@ -10,22 +10,39 @@ namespace DesignPatternConsole
     {
         static void Main(string[] args)
         {
-            GetMenu();
+            ChoosePattern();
+        }
+
+        private static void ChoosePattern()
+        {
+            Console.WriteLine("---- Design Pattern ----");
+            Console.WriteLine("1. Factory Method (Document Pages)");
+            Console.WriteLine("2. Abstract Factory (Food Chain)");
+            Console.WriteLine("3. Strategy");
+            Console.WriteLine("4. Builder");
+            Console.WriteLine("5. Facade (Mortgage System)");
+            Console.WriteLine("0. Exit");
+
+            Console.WriteLine("Enter pattern : ");
+            OnChoose();
+        }
+
+        private static void OnChoose()
+        {
             string inputString = Console.ReadLine();
             int key;
 
             if (!int.TryParse(inputString, out key))
             {
-                return;
+                key = 0;
             }
 
             switch (key)
-            { 
-
+            {
                 case 1:
                     new FactoryMethod.DocumentDemo().Run();
                     break;
-                
+
                 case 2:
                     new AbstractFactory.AnimalFoodChainDemo().Run();
                     break;
@@ -43,29 +60,33 @@ namespace DesignPatternConsole
                     break;
 
                 default:
+                    Console.WriteLine("Sorry, i don't get what you mean");
                     break;
             }
 
+            AskExit();
+        }
+
+        private static void AskExit()
+        {
             Console.WriteLine("Do you want to exit ? Y/N");
-            if (Console.ReadKey().ToString().ToUpper().Equals('N'))
+            OnExit();
+        }
+
+        private static void OnExit()
+        {
+            string key = Console.ReadLine().ToString().ToUpper();
+            
+            if (key.Equals("N"))
             {
                 Console.Clear();
-                GetMenu();
+                ChoosePattern();
+            } else if (key != "Y")
+            {
+                Console.WriteLine("Sorry, i don't get what you mean");
+                AskExit();
             }
-
         }
 
-        static void GetMenu() {
-
-            Console.WriteLine("---- Design Pattern ----");
-            Console.WriteLine("1. Factory Method (Document Pages)");
-            Console.WriteLine("2. Abstract Factory (Food Chain)");
-            Console.WriteLine("3. Strategy");
-            Console.WriteLine("4. Builder");
-            Console.WriteLine("5. Facade (Mortgage System)");
-            Console.WriteLine("0. Exit");
-
-            Console.WriteLine("Enter pattern : ");
-        }
     }
 }

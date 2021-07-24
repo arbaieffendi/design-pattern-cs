@@ -34,7 +34,7 @@ namespace DesignPatternConsole
 
             if (!int.TryParse(inputString, out key))
             {
-                key = 0;
+                key = -1;
             }
 
             switch (key)
@@ -57,6 +57,9 @@ namespace DesignPatternConsole
 
                 case 5:
                     new Facade.MortgageDemo().Run();
+                    break;
+
+                case 0:
                     break;
 
                 default:

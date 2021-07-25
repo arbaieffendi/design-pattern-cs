@@ -12,14 +12,17 @@ namespace DesignPatternCS
         private static void ChoosePattern()
         {
             Console.WriteLine("---- Design Pattern ----");
-            Console.WriteLine("1. Factory Method (Document Pages)");
-            Console.WriteLine("2. Abstract Factory (Food Chain)");
-            Console.WriteLine("3. Strategy");
-            Console.WriteLine("4. Builder (Vehicle Production)");
-            Console.WriteLine("5. Facade (Mortgage System)");
-            Console.WriteLine("0. Exit");
+            Console.WriteLine("> Creational");
+            Console.WriteLine("   1. Factory Method (Document Pages)");
+            Console.WriteLine("   2. Abstract Factory (Food Chain)");
+            Console.WriteLine("   3. Builder (Vehicle Production)");
+            Console.WriteLine("> Structural");
+            Console.WriteLine("   4. Strategy");
+            Console.WriteLine("   5. Facade (Mortgage System)");
+            Console.WriteLine("> Other");
+            Console.WriteLine("   0. Exit");
 
-            Console.WriteLine("Enter pattern : ");
+            Console.WriteLine("Enter your choice : ");
             OnChoose();
         }
 
@@ -44,11 +47,11 @@ namespace DesignPatternCS
                     break;
 
                 case 3:
-                    Console.WriteLine("Sorry, the pattern demo is not available yet");
+                    new Builder.VehicleProductionDemo().Run();
                     break;
 
                 case 4:
-                    new Builder.VehicleProductionDemo().Run();
+                    Console.WriteLine("Sorry, the pattern demo is not available yet");
                     break;
 
                 case 5:

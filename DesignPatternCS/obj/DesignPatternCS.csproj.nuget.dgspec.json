@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\lab\\DesignPatternConsole\\DesignPatternCS\\DesignPatternCS.csproj": {}
+    "C:\\Users\\Admin\\source\\lab\\DesignPatternCS\\DesignPatternCS\\DesignPatternCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\lab\\DesignPatternConsole\\DesignPatternCS\\DesignPatternCS.csproj": {
+    "C:\\Users\\Admin\\source\\lab\\DesignPatternCS\\DesignPatternCS\\DesignPatternCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\lab\\DesignPatternConsole\\DesignPatternCS\\DesignPatternCS.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\lab\\DesignPatternCS\\DesignPatternCS\\DesignPatternCS.csproj",
         "projectName": "DesignPatternCS",
-        "projectPath": "C:\\Users\\Admin\\source\\lab\\DesignPatternConsole\\DesignPatternCS\\DesignPatternCS.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\lab\\DesignPatternCS\\DesignPatternCS\\DesignPatternCS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\lab\\DesignPatternConsole\\DesignPatternCS\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\lab\\DesignPatternCS\\DesignPatternCS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,3 +10,16 @@ C:\Users\Admin\source\lab\DesignPatternConsole\DesignPatternCS\bin\Debug\netcore
 C:\Users\Admin\source\lab\DesignPatternConsole\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.dll
 C:\Users\Admin\source\lab\DesignPatternConsole\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.pdb
 C:\Users\Admin\source\lab\DesignPatternConsole\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.genruntimeconfig.cache
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\bin\Debug\netcoreapp3.1\DesignPatternCS.exe
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\bin\Debug\netcoreapp3.1\DesignPatternCS.deps.json
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\bin\Debug\netcoreapp3.1\DesignPatternCS.runtimeconfig.json
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\bin\Debug\netcoreapp3.1\DesignPatternCS.runtimeconfig.dev.json
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\bin\Debug\netcoreapp3.1\DesignPatternCS.dll
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\bin\Debug\netcoreapp3.1\DesignPatternCS.pdb
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.csprojAssemblyReference.cache
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.AssemblyInfoInputs.cache
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.AssemblyInfo.cs
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.dll
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.pdb
+C:\Users\Admin\source\lab\DesignPatternCS\DesignPatternCS\obj\Debug\netcoreapp3.1\DesignPatternCS.genruntimeconfig.cache

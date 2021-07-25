@@ -15,7 +15,7 @@ namespace DesignPatternCS
             Console.WriteLine("1. Factory Method (Document Pages)");
             Console.WriteLine("2. Abstract Factory (Food Chain)");
             Console.WriteLine("3. Strategy");
-            Console.WriteLine("4. Builder");
+            Console.WriteLine("4. Builder (Vehicle Production)");
             Console.WriteLine("5. Facade (Mortgage System)");
             Console.WriteLine("0. Exit");
 
@@ -48,7 +48,7 @@ namespace DesignPatternCS
                     break;
 
                 case 4:
-                    new Builder.Demo().Run();
+                    new Builder.VehicleProductionDemo().Run();
                     break;
 
                 case 5:
